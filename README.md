@@ -70,14 +70,6 @@ The model follows a star-schema layout, with `sales` at the centre and the other
 
 ---
 
-## Notes and Possible Improvements
-
-- Add titles to the charts that currently have none, so each visual is self-explanatory.
-- Page 1 and Page 2 are named with default names; renaming them (e.g. "Overview", "Quarterly Detail") would improve navigation.
-- Consider adding a Year-over-Year growth measure and a profit margin (%) KPI.
-- Document the DAX measures and data source connection details here once finalised.
-
----
 
 ## Author
 
