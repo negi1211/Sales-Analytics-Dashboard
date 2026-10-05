@@ -70,29 +70,6 @@ The model follows a star-schema layout, with `sales` at the centre and the other
 
 ---
 
-## How to Use
-
-1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
-2. Open `Sales.pbix`.
-3. If prompted, refresh the data. The report was created from the cloud/Power BI service, so you may need to re-point or re-authenticate the data source.
-4. Use the **Country**, **Year** and **Month** slicers on Page 1 to filter all KPI cards and charts.
-5. Switch to Page 2 for the Year/Quarter table.
-
----
-
-## Project Structure
-
-```
-Sales.pbix
-├── Report/Layout      # Pages, visuals and formatting
-├── DataModel          # Tables, relationships, measures (compressed)
-├── DiagramLayout      # Model diagram positions
-├── Settings / Metadata
-└── Report/StaticResources   # Base theme (CY24SU06)
-```
-
----
-
 ## Notes and Possible Improvements
 
 - Add titles to the charts that currently have none, so each visual is self-explanatory.
